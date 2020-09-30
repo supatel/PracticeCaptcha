@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title></title>
+        </head>
+        <body>
+            <canvas width=250 height=70 style="border:1px solid black;"></canvas><br>
+			<input type="text" class="txtar" size="25" id="nus" placeholder="Enter the number shown above"/><br>
+            <button style="width:150px;height:40px;-webkit-tap-highlight-color:rgba(0,0,0,0);" onclick="generateCaptcha()">Generate Captcha</button>
+            <button style="width:150px;height:40px;-webkit-tap-highlight-color:rgba(0,0,0,0);" onclick="testCaptcha()">Test Captcha</button>
+            <style type="text/css">
+                body{
+                    text-align:center;
+                    background:black;                            
+                }
+                canvas{
+                    background:white;
+                }
+            </style>
+            <script type="text/javascript">
+				generateCaptcha();
+            </script>
+			<p id="set"></p>
+        </body>
+</html>
